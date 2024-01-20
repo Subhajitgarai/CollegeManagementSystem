@@ -8,6 +8,7 @@
 - **JDK:** `17`
 - **Spring Boot:** `3.2.1`
 - **Build Tool:** `Maven`
+- **Database:** `MySql version 8`
 - **Idle:** `Spring Tool Suit`
 ---
 ## Entities
