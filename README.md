@@ -64,8 +64,19 @@ College_tec | teacher_id, teacher_name, teacher_ph, teacher_address, department_
 - JPA and Hibernate for data persistence.
 - Maven as the build tool.
 ---
+## Application Properites
+-- spring.datasource.name=test
+-- spring.datasource.url=jdbc:mysql://localhost:3306/test
+-- spring.datasource.username=root
+-- spring.datasource.password=Subhajit@123
+-- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+-- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+-- #ForAuto Table Creation
+-- spring.jpa.hibernate.ddl-auto=create
+
+---
 ## How to Run
 1. Ensure `JDK 17` is installed.
 2. Clone the repository.
 3. Navigate to the project directory.
-4. Run `mvn spring-boot:run` to start the application.
+4. Download `Spring Tools Suit` and run it as a SpringBoot Project
