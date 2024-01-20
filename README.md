@@ -1,7 +1,7 @@
 # College Management System
 
 ## Overview
-**This project implements a College Management System using Spring Boot, providing functionalities for managing colleges, students, departments, and teachers. The system is designed with a layered architecture, utilizing Spring Boot for efficient development.**
+    ***This project implements a College Management System using Spring Boot, providing functionalities for managing colleges, students, departments, and teachers. The system is designed with a layered architecture, utilizing Spring Boot for efficient development.***
 ---
 
 ## Tools and Versions
