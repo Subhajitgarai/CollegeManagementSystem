@@ -65,14 +65,13 @@ College_tec | teacher_id, teacher_name, teacher_ph, teacher_address, department_
 - Maven as the build tool.
 ---
 ## Application Properites
--- spring.datasource.name=test
--- spring.datasource.url=jdbc:mysql://localhost:3306/test
--- spring.datasource.username=root
--- spring.datasource.password=Subhajit@123
--- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
--- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
--- #ForAuto Table Creation
--- spring.jpa.hibernate.ddl-auto=create
+   - spring.datasource.name=test
+   - spring.datasource.url=jdbc:mysql://localhost:3306/test
+   - spring.datasource.username=root
+   - spring.datasource.password=Subhajit@123
+   - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+   - spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+   - spring.jpa.hibernate.ddl-auto=create
 
 ---
 ## How to Run
